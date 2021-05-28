@@ -29,6 +29,7 @@ public class DBConnection {
 				
 			{
 			con = DriverManager.getConnection(url, user, password);
+			System.out.println("e");
 			
 			}
 			
